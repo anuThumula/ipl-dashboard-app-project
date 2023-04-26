@@ -1,0 +1,162 @@
+/* Write your CSS here */
+.lm-cont {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.lm-heading {
+  font-family: Bree Serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.lm-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #0f172a;
+  border-radius: 5px;
+  padding: 10px 15px 10px 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .lm-card {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.lm-logo-cont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .lm-logo-cont {
+    width: 60%;
+  }
+}
+
+.lm-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: #ffffff;
+  font-family: Bree Serif;
+  width: 80%;
+}
+
+@media screen and (min-width: 768px) {
+  .lm-details {
+    width: 100%;
+  }
+}
+
+.lm-team-name {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+
+.lm-date {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+
+.lm-venue {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+
+.lm-status {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .lm-date,
+  .lm-venue,
+  .lm-status {
+    font-size: 18px;
+  }
+}
+
+.lm-logo {
+  height: 100px;
+  width: 100px;
+}
+
+@media screen and (min-width: 768px) {
+  .lm-logo {
+    min-height: 150px;
+    min-width: 150px;
+    max-height: 200px;
+  }
+}
+
+.lm-details-info {
+  width: 100%;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .match-info-item {
+    width: 43%;
+    border: 0.5px solid #fff9fc;
+    padding: 8px;
+    border-radius: 25px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    min-height: 100px;
+    max-height: 200px;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .lm-details-info {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .lm-details-info {
+    padding-left: 0px;
+    padding-right: 32px;
+    text-align: right;
+    width: 33%;
+  }
+}
+.lm-details-label {
+  color: #ffffff;
+  font-family: Bree Serif;
+  font-size: 13px;
+}
+
+@media screen and (min-width: 768px) {
+  .lm-details-label {
+    font-size: 18px;
+  }
+}
+
+.lm-details-value {
+  color: #ffffff;
+  font-family: Bree Serif;
+  font-size: 13px;
+}
+
+@media screen and (min-width: 768px) {
+  .lm-details-value {
+    font-size: 14px;
+  }
+}
